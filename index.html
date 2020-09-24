@@ -4,14 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Front-End Design</title>
-    <style></style>
+    <style>
+        .top-nav{
+            background: rgb(214, 208, 208);
+            margin: 0;
+            padding: 3px;
+            text-align: center;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        li{
+            flex: 1;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        li a{
+            text-decoration: none;
+            color: black;
+        }
+        li a:hover{
+            color: white;
+            display: inline-block;
+        }
+        body{
+            font-family: 'Times New Roman',Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <div class="top-nav">
         <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact</li>
+            <li><a href='#'>Home</a></li>
+            <li><a href='#'>About Us</a></li>
+            <li><a href='#'>Contact</a></li>
         </ul>
     </div>
     <div class="content">
