@@ -1,38 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Front-End Design</title>
-    <style>
-        .top-nav{
-            background: rgb(214, 208, 208);
-            margin: 0;
-            padding: 3px;
-            text-align: center;
-        }
-        ul{
-            display: flex;
-            list-style: none;
-        }
-        li{
-            flex: 1;
-            text-transform: uppercase;
-            font-weight: bold;
-        }
-        li a{
-            text-decoration: none;
-            color: black;
-        }
-        li a:hover{
-            color: white;
-            display: inline-block;
-        }
-        body{
-            font-family: 'Times New Roman',Arial, Helvetica, sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="top-nav">
         <ul>
@@ -43,20 +18,49 @@
     </div>
     <div class="content">
         <h1>Main Heading</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur repellat voluptas aperiam, natus soluta.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur velit esse, odit ex dolores veniam quisquam maxime itaque quas tempora?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum incidunt hic velit adipisci beatae dicta nobis doloremque modi quod sit totam dolor quasi voluptas fugiat officiis, culpa ad harum labore eos veniam dignissimos, ex enim doloribus? Tempora ab nam officia?</p>
-        <h3>Sub-Heading 1</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis est voluptates cum pariatur aspernatur doloribus error, culpa sit fuga voluptatibus labore repellat commodi. Eius temporibus repellat consequuntur, id soluta necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi doloremque sed. Hic sunt commodi illum dolorum libero repudiandae laudantium rerum nam nostrum, aspernatur obcaecati, quae cum eius qui nisi accusamus eaque provident, ut possimus! Dolor ratione autem animi accusantium dolorum cum perspiciatis eligendi! Amet mollitia neque vitae pariatur repellendus!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, esse.</p>
-        <h3>Sub-Heading 2</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sunt eius laboriosam optio reprehenderit doloribus ducimus rerum necessitatibus quisquam! Vel quis, quibusdam neque reprehenderit cupiditate nobis! Recusandae accusamus illum sunt?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nemo distinctio eveniet culpa modi necessitatibus fugiat ea officiis delectus quos.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repellat expedita deserunt veritatis ab quae, voluptatibus officiis architecto, laboriosam quisquam, laudantium provident soluta itaque corrupti.</p>
-        <h3>Sub-Heading 3</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint atque optio voluptates pariatur et tenetur beatae provident. Dolores, labore aliquid.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ut aut amet doloribus reprehenderit odit libero ea obcaecati dignissimos harum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur repellat voluptas aperiam, natus
+            soluta.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur velit esse, odit ex dolores veniam
+            quisquam maxime itaque quas tempora?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum incidunt hic velit adipisci beatae dicta
+            nobis doloremque modi quod sit totam dolor quasi voluptas fugiat officiis, culpa ad harum labore eos veniam
+            dignissimos, ex enim doloribus? Tempora ab nam officia?</p>
+        <div class="sub-content">
+            <div class="head">
+                <h3>Sub-Heading 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis est voluptates cum pariatur
+                    aspernatur doloribus error, culpa sit fuga voluptatibus labore repellat commodi. Eius temporibus
+                    repellat consequuntur, id soluta necessitatibus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi doloremque sed. Hic sunt
+                    commodi illum dolorum libero repudiandae laudantium rerum nam nostrum, aspernatur obcaecati, quae
+                    cum eius qui nisi accusamus eaque provident, ut possimus! Dolor ratione autem animi accusantium
+                    dolorum cum perspiciatis eligendi! Amet mollitia neque vitae pariatur repellendus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, esse.</p>
+            </div>
+            <div class="head">
+                <h3>Sub-Heading 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis est voluptates cum pariatur
+                    aspernatur doloribus error, culpa sit fuga voluptatibus labore repellat commodi. Eius temporibus
+                    repellat consequuntur, id soluta necessitatibus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi doloremque sed. Hic sunt
+                    commodi illum dolorum libero repudiandae laudantium rerum nam nostrum, aspernatur obcaecati, quae
+                    cum eius qui nisi accusamus eaque provident, ut possimus! Dolor ratione autem animi accusantium
+                    dolorum cum perspiciatis eligendi! Amet mollitia neque vitae pariatur repellendus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, esse.</p>
+            </div>
+            <div class="head">
+                <h3>Sub-Heading 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis est voluptates cum pariatur
+                    aspernatur doloribus error, culpa sit fuga voluptatibus labore repellat commodi. Eius temporibus
+                    repellat consequuntur, id soluta necessitatibus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi doloremque sed. Hic sunt
+                    commodi illum dolorum libero repudiandae laudantium rerum nam nostrum, aspernatur obcaecati, quae
+                    cum eius qui nisi accusamus eaque provident, ut possimus! Dolor ratione autem animi accusantium
+                    dolorum cum perspiciatis eligendi! Amet mollitia neque vitae pariatur repellendus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, esse.</p>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
